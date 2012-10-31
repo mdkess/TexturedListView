@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mdkess="https://schemas.android.com/apk/res/xxx.rtin.texturedlistview.TexturedListView"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <xxx.rtin.texturedlistview.TexturedListView
+        
+        android:id="@+id/texturedListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:dividerHeight="10dp"
+        android:divider="@null"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:clipToPadding="false"
+        mdkess:backgroundTexture="@drawable/background" 
+        mdkess:dummy="asdf" >
+    </xxx.rtin.texturedlistview.TexturedListView>
+
+</RelativeLayout>
